@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Detection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Phishing Detection System</h1>
+        </header>
+
+        <main>
+            <!-- Text Checker Section -->
+            <div class="form-container">
+                <form id="phishing-form">
+                    <textarea name="email_content" placeholder="Paste the Email/Url's/Messages here..."></textarea>
+                    <button type="submit">Check</button>
+                </form>
+            </div>
+
+            <!-- Display Result -->
+            <div id="result" class="result-box">
+                <!-- Prediction result will appear here -->
+            </div>
+        </main>
+
+        <footer>
+            <p>Powered by Team Binary Bugs</p>
+        </footer>
+    </div>
+
+    <script src="/static/scripts.js"></script>
+</body>
+</html>

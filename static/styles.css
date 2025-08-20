@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #000000, rgb(134, 39, 39), #000000); /* Vertical gradient */
+    color: #f5f5f5; /* Light text for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    animation: fadeIn 1s ease-out; /* Fade in animation for body */
+}
+
+/* Header Styles */
+h1 {
+    color: #ff5733; /* Accent color for header */
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Adding a shadow for depth */
+    opacity: 0;
+    animation: slideUp 0.8s ease-out forwards; /* Slide up animation for header */
+}
+
+/* Form Container */
+form {
+    margin-left: -200px;
+    width: 200%;
+    max-width: 1000px;
+    background: #2c2c2c; /* Dark background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Deeper shadow for better contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    opacity: 0;
+    animation: fadeIn 1s ease-out 0.5s forwards; /* Fade in animation for form */
+}
+
+/* Textarea Styles */
+
+/* Textarea Styles */
+textarea {
+    text-align: left;
+    width: 150%; /* Make the textarea span the full width of its container */
+    max-width: 975px; /* Set a maximum width for the textarea */
+    height: 250px; /* Increased height for a larger textarea */
+    padding: 12px;
+    border: 1px solid #555; /* Darker border for a more subtle effect */
+    border-radius: 8px;
+    font-size: 1.1rem;
+    resize: none;
+    background-color: #444; /* Dark background for textarea */
+    color: #f5f5f5; /* Light text inside the textarea */
+    transition: border-color 0.3s ease;
+    opacity: 0;
+    animation: fadeIn 1s ease-out 1s forwards; /* Fade in animation for textarea */
+}
+
+
+textarea:focus {
+    border-color: #ff5733; /* Accent color for focus state */
+}
+
+
+/* Button Styles */
+button {
+    max-width: 500px;
+    margin-left: 250px;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #ff5733; /* Accent color for the button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Button shadow for depth */
+    opacity: 0;
+    animation: fadeIn 1s ease-out 1.5s forwards; /* Fade in animation for button */
+}
+
+button:hover {
+    background-color: #e94e1b; /* Darker shade for hover effect */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Button Focus */
+button:focus {
+    outline: none;
+}
+
+/* Result Section */
+#result {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    color: #f5f5f5; /* Light text color */
+    padding: 15px;
+    background: #333; /* Darker background for result box */
+    border-left: 5px solid #ff5733; /* Accent color border */
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    opacity: 0;
+    animation: fadeIn 1s ease-out 2s forwards; /* Fade in animation for result box */
+}
+
+/* Additional Styling */
+a {
+    color: #ff5733; /* Accent color for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e94e1b; /* Darker shade on hover */
+    text-decoration: underline;
+}
+
+/* Animations */
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Slide-up animation */
+@keyframes slideUp {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

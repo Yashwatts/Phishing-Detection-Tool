@@ -1,0 +1,167 @@
+[
+    {
+        "text": "hi",
+        "prediction": "Safe",
+        "confidence": 100.0
+    },
+    {
+        "text": "pay me on this link",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    },
+    {
+        "text": "hi i'm your friend. Help me with money please.\n",
+        "prediction": "Safe",
+        "confidence": 99.99
+    },
+    {
+        "text": "heeeeeeeeeeee",
+        "prediction": "Safe",
+        "confidence": 83.24
+    },
+    {
+        "text": "hello",
+        "prediction": "Phishing",
+        "confidence": 62.43
+    },
+    {
+        "text": "hello",
+        "prediction": "Phishing",
+        "confidence": 62.43
+    },
+    {
+        "text": "hi",
+        "prediction": "Safe",
+        "confidence": 100.0
+    },
+    {
+        "text": "Okay done",
+        "prediction": "Safe",
+        "confidence": 100.0
+    },
+    {
+        "text": "hi",
+        "prediction": "Safe",
+        "confidence": 100.0
+    },
+    {
+        "text": "click on this link and get paid: https://payme/yazxsw.in",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    },
+    {
+        "text": "hi",
+        "prediction": "Safe",
+        "confidence": 100.0
+    },
+    {
+        "text": "Click this link and claim 100rs:",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    },
+    {
+        "text": "Hey!\n",
+        "prediction": "Safe",
+        "confidence": 99.98
+    },
+    {
+        "text": "hi",
+        "prediction": "Safe",
+        "confidence": 100.0
+    },
+    {
+        "text": "hey!\nCheck my new website: http://www.bhatiasales.shop",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    },
+    {
+        "text": "hey!\nCheck my new website: https://www.bhatiasales.shop",
+        "prediction": "Phishing",
+        "confidence": 99.99
+    },
+    {
+        "text": "hey!\nCheck my new website: https://www.bhatiasales.shop",
+        "prediction": "Phishing",
+        "confidence": 99.99
+    },
+    {
+        "text": "hey!\nCheck my new website: https://www.bhatiasales.com",
+        "prediction": "Phishing",
+        "confidence": 99.99
+    },
+    {
+        "text": "hey I'm your friend yash!\nCheck my new website: https://www.bhatiasales.com",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    },
+    {
+        "text": "Check my new website: https://www.bhatiasales.com",
+        "prediction": "Phishing",
+        "confidence": 99.99
+    },
+    {
+        "text": "Check my new website and support: https://www.bhatiasales.shop",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    },
+    {
+        "text": "Hey buddy this is the link to our common project: https://www.bhatiasales.shop",
+        "prediction": "Phishing",
+        "confidence": 99.98
+    },
+    {
+        "text": "https://check-attachment.vercel.app",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    },
+    {
+        "text": "v0-check-attachment.vercel.app",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    },
+    {
+        "text": "v0-check-attachment.vercel.app",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    },
+    {
+        "text": "v0-check-attachment.vercel.app my project",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    },
+    {
+        "text": "v0-check-attachment.vercel.app my project",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    },
+    {
+        "text": "v0-check-attachment.vercel.app my project",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    },
+    {
+        "text": "hey",
+        "prediction": "Safe",
+        "confidence": 99.96
+    },
+    {
+        "text": "hey, it's your boss. kindly give me project on drive link below:\nhttps://drive.google.com",
+        "prediction": "Phishing",
+        "confidence": 99.96
+    },
+    {
+        "text": "hey, it's your boos. kindly give me project on drive link below:\nhttps://drive.google.com",
+        "prediction": "Phishing",
+        "confidence": 99.99
+    },
+    {
+        "text": "hey, it's your boss. kindly give me project on drive link below:\nhttps://drive.google.com/file/d/15Uo0qVDDMkk6/view?usp=sharing",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    },
+    {
+        "text": "hey, it's your boss. kindly give me project on drive link below:\nhttps://drive.google.com/file/d/15Uo0qVDDMkk6/view?usp=sharing",
+        "prediction": "Phishing",
+        "confidence": 100.0
+    }
+]
